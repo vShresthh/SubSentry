@@ -1,0 +1,14 @@
+{
+  "github.io": {
+    "service": "GitHub Pages",
+    "fingerprint": "There isn't a GitHub Pages site here"
+  },
+  "herokuapp.com": {
+    "service": "Heroku",
+    "fingerprint": "no such app"
+  },
+  "cdn.example.com": {
+    "service": "FakeCDN",
+    "fingerprint": "Error 404 - CDN not found"
+  }
+}
