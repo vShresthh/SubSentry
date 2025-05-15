@@ -1,14 +1,90 @@
 {
-  "github.io": {
-    "service": "GitHub Pages",
-    "fingerprint": "There isn't a GitHub Pages site here"
+  "elasticbeanstalk.com": {
+    "service": "AWS/Elastic Beanstalk",
+    "fingerprint": "NXDOMAIN"
   },
-  "herokuapp.com": {
-    "service": "Heroku",
-    "fingerprint": "no such app"
+  "s3.amazonaws.com": {
+    "service": "AWS/S3",
+    "fingerprint": "The specified bucket does not exist"
   },
-  "cdn.example.com": {
-    "service": "FakeCDN",
-    "fingerprint": "Error 404 - CDN not found"
+  "agilecrm.com": {
+    "service": "Agile CRM",
+    "fingerprint": "Sorry, this page is no longer available."
+  },
+  "airee.ru": {
+    "service": "Airee.ru",
+    "fingerprint": "Ошибка 402. Сервис Айри.рф не оплачен"
+  },
+  "animaapp.io": {
+    "service": "Anima",
+    "fingerprint": "The page you were looking for does not exist."
+  },
+  "bitbucket.io": {
+    "service": "Bitbucket",
+    "fingerprint": "Repository not found"
+  },
+  "digitalocean.com": {
+    "service": "Digital Ocean",
+    "fingerprint": "Domain uses DO name servers with no records in DO."
+  },
+  "trydiscourse.com": {
+    "service": "Discourse",
+    "fingerprint": "NXDOMAIN"
+  },
+  "gemfury.com": {
+    "service": "Gemfury",
+    "fingerprint": "404: This page could not be found."
+  },
+  "ghost.io": {
+    "service": "Ghost",
+    "fingerprint": "Site unavailable.|Failed to resolve DNS path for this host"
+  },
+  "hatenablog.com": {
+    "service": "HatenaBlog",
+    "fingerprint": "404 Blog is not found"
+  },
+  "helpjuice.com": {
+    "service": "Help Juice",
+    "fingerprint": "We could not find what you're looking for."
+  },
+  "helpscoutdocs.com": {
+    "service": "Help Scout",
+    "fingerprint": "No settings were found for this company:"
+  },
+  "helprace.com": {
+    "service": "Helprace",
+    "fingerprint": "HTTP_STATUS=301"
+  },
+  "launchrock.com": {
+    "service": "LaunchRock",
+    "fingerprint": "HTTP_STATUS=500"
+  },
+  "mailchimp.com": {
+    "service": "Mailchimp",
+    "fingerprint": "We can't find that page"
+  },
+  "na-west1.surge.sh": {
+    "service": "Surge.sh",
+    "fingerprint": "project not found"
+  },
+  "surveysparrow.com": {
+    "service": "SurveySparrow",
+    "fingerprint": "Account not found."
+  },
+  "read.uberflip.com": {
+    "service": "Uberflip",
+    "fingerprint": "The URL you've accessed does not provide a hub."
+  },
+  "uptimerobot.com": {
+    "service": "Uptimerobot",
+    "fingerprint": "page not found"
+  },
+  "wordpress.com": {
+    "service": "WordPress",
+    "fingerprint": "Do you want to register .*.wordpress.com?"
+  },
+  "worksites.net": {
+    "service": "Worksites",
+    "fingerprint": "Hello! Sorry, but the website you’re looking for doesn’t exist."
   }
 }
