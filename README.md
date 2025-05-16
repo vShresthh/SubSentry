@@ -6,12 +6,12 @@
 
 ## Features
 
-- Subdomain enumeration using `subfinder`
-- DNS CNAME resolution via `dnspython`
-- Fingerprint-based takeover validation (configurable via `services.json`)
-- Automated report generation in **JSON** and **Markdown**
-- Logging with rotating log files
-- Built with modular Python design for extensibility
+- Subdomain enumeration using `subfinder`.
+- DNS CNAME resolution via `dnspython`.
+- Fingerprint-based takeover validation (configurable via `services.json`).
+- Automated report generation in **JSON** and **Markdown**.
+- Logging with rotating log files.
+- Built with modular Python design for extensibility.
 
 ---
 
@@ -20,7 +20,7 @@
 ### Step 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/SubSentry.git
+git clone https://github.com/vShresthh/SubSentry.git
 cd SubSentry
 ```
 ### Step 2. Set Up a Virtual Environment (Recommended)
