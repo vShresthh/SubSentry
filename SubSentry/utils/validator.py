@@ -1,15 +1,7 @@
 import logging
 
 def validate(targets, exploit_keywords=None):
-    """
-    Validates subdomain takeover possibilities by analyzing CNAME records.
-    Targets should have 'subdomain', 'cname', and 'service' info.
-    The status is marked as 'Exploitable', 'Needs Review', or other custom statuses based on conditions.
     
-    :param targets: List of targets containing subdomain, cname, and service details.
-    :param exploit_keywords: List of keywords that indicate exploitable subdomains (default is None).
-    :return: List of validated targets with added status field.
-    """
     
     # Set default keywords for exploitable subdomains if none are provided
     if exploit_keywords is None:
@@ -21,7 +13,6 @@ def validate(targets, exploit_keywords=None):
 
     for target in targets:
         try:
-            # Extract target details
             subdomain = target['subdomain']
             cname = target['cname']
             service = target['service']

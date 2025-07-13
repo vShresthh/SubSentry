@@ -3,10 +3,7 @@ import os
 import logging
 
 def run_enum(domain: str) -> list[str]:
-    """
-    Run subfinder to enumerate subdomains for the given domain.
-    Returns a list of discovered subdomains or an empty list on failure.
-    """
+    
     logging.info(f"[*] Enumerating subdomains for: {domain}")
     output_file = f"{domain}_subdomains.txt"
 

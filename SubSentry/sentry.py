@@ -1,6 +1,7 @@
 import logging
 import re
 from utils import enum, dns_checker, validator, reporter
+import pyfiglet
 
 # Setting up logging configuration
 logging.basicConfig(
@@ -10,14 +11,13 @@ logging.basicConfig(
 )
 
 def print_banner():
-    print("""
-    *********************************************
-    *                                           *
-    *               SubSentry                   *
-    *              by vshresthh                 *
-    *                                           *
-    *********************************************
-    """)
+    banner = pyfiglet.figlet_format("SubSentry", font="ansi_shadow")
+    print("*" * 77)
+    print(banner.strip())
+    print("Subdomain Takeover Scanner + Validator".center(65))
+    print("by @vshresthh".center(65))
+    print("*" * 77)
+
 
 def main():
     try:

@@ -4,7 +4,7 @@ import logging
 import time
 
 # Load known vulnerable services from services.json
-with open("services.json") as f:
+with open("services.json", encoding="utf-8") as f:
     services = json.load(f)
 
 # Configure logging
@@ -31,18 +31,7 @@ def get_dns_resolver(timeout=5, nameservers=None):
     return resolver
 
 def check_cnames(subdomains, resolver=None):
-    """
-    Checks DNS CNAME records for the provided subdomains and identifies
-    potential service targets that could be vulnerable to subdomain takeover.
     
-    Args:
-        subdomains (list): List of subdomains to check CNAME records for.
-        resolver (dns.resolver.Resolver): Optional custom DNS resolver.
-    
-    Returns:
-        list: A list of dictionaries containing subdomains, CNAME records,
-              and their corresponding services.
-    """
     logging.info("[*] Checking DNS CNAME records...")
     targets = []
     
