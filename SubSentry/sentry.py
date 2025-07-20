@@ -12,11 +12,11 @@ logging.basicConfig(
 
 def print_banner():
     banner = pyfiglet.figlet_format("SubSentry", font="ansi_shadow")
-    print("*" * 77)
+    print("*" * 78)
     print(banner.strip())
     print("Subdomain Takeover Scanner + Validator".center(65))
     print("by @vshresthh".center(65))
-    print("*" * 77)
+    print("*" * 78)
 
 
 def main():
